@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { Note } from "@/components/Note";
+import { View } from "react-native";
 
 export default function Index() {
   return (
@@ -9,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Note type={2} title="Note title" content="Content of a note in the app"></Note>
     </View>
   );
 }
